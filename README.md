@@ -11,7 +11,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 1: Introdução - Unix & Shell
 
 - [✅] 1-3: _[Unix & Shell- Part 1](https://github.com/ViniciusRogatti/trybe-exercicios/tree/tentativaDeLink/Fundamentos/Bloco%2001/unix%20%26%20bash%20parte%201)
-- [✅] 1-4: _Unix & Shell- Part 2_
+- [✅] 1-4: _[Unix & Shell- Part 2](https://github.com/ViniciusRogatti/trybe-exercicios/tree/master/Fundamentos/Bloco%2001/unix%20%26%20bash%20parte%202)
 
 ##### Bloco 2: Git & GitHub
 
