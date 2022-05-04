@@ -1,0 +1,5 @@
+1.Copiar um repositório já existente no GitHub 
+ para o meu computador;
+2.Abrir Pull Requests;
+3.Trabalhar em um mesmo projeto, com mais de 
+ uma pessoa, de forma assíncrona e distribuída.
