@@ -1,0 +1,14 @@
+1.  > arquivo  "redireciona a saida padrao para o arquivo
+2. >> arquivo  "anexa saida padrao para o arquivo
+3.  < arquivo  "redireciona a entrada padrao para o arquivo
+4.comando1 | comando2 "saida do comando1 para entrada comando2
+5.  sort "ordena dados"
+6. ^C "elimina o trabalho em execução em primeiro plano"
+7. ^Z "suspende o trabalho em primeiro plano"
+8. jobs "lista processos suspensos e em segundo plano"
+9. bg "retorna processos suspensos"
+10.fg 1% "reinicia o primeiro processo suspenso"
+11.kill 1% "mata o primeiro processo suspenso"
+12.ps "lista os processos atuais"
+13.kill "encerra o processo nomeado"
+14.chmod "altera os direitos do arquivo"
