@@ -1,0 +1,4 @@
+1.Instalar e configurar o Git no meu computador;
+2.Salvar meus projetos no repositório Git local;
+3.Controlar as alterações e versões dos meus arquivos;
+4.Enviar meus projetos para o repositório remoto do GitHub.
