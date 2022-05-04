@@ -11,13 +11,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [✅] 1-3: _[Unix & Shell- Part 1](https://github.com/viniciusRogatti/trybe-exercicios/tree/master/Fundamentos/Bloco%2001/unix%20%26%20bash%20parte%201)
-- [✅] 1-4: _[Unix & Shell- Part 2](https://github.com/ViniciusRogatti/trybe-exercicios/tree/master/Fundamentos/Bloco%2001/unix%20%26%20bash%20parte%202)
+- [✅] 1-3: [_Unix & Bash- Part 1_](https://github.com/viniciusRogatti/trybe-exercicios/tree/master/Fundamentos/Bloco%2001/unix%20%26%20bash%20parte%201)
+- [✅] 1-4: [_Unix & Bash- Part 2_](https://github.com/ViniciusRogatti/trybe-exercicios/tree/master/Fundamentos/Bloco%2001/unix%20%26%20bash%20parte%202)
 
 ##### Bloco 2: Git & GitHub
 
-- [✅] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
+- [✅] 2-1: [_O que é e para que serve?_](https://github.com/viniciusRogatti/trybe-exercicios/tree/master/Fundamentos/Bloco%2002/Git%20%26%20GitHub%20-%20O%20que%20%C3%A9%20e%20para%20que%20serve)
+- [✅] 2-2: [_Entendendo os comandos_](https://github.com/viniciusRogatti/trybe-exercicios/tree/master/Fundamentos/Bloco%2002/Git%20%26%20GitHub%20-%20Entendendo%20os%20comandos)
 - [ ] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
