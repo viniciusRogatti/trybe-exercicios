@@ -1,0 +1,18 @@
+1. ls           "lista os arquivos e diretórios"
+2. ls -la       "lista todos os arquivos e diretório até os ocultos.
+3. cd diretório "muda para o diretório nomeado"
+4. cd ~         "muda para o diretorio inicial"
+5. cd ..        "muda para o diretorio pai 
+6. wc           "conta linha, palavra, caracteres no arquivo"
+7. head         "exibe as 5 primeiras linhas do arquivo"
+8. tail         "exibe as 5 ultimas linhas do arquivo"
+9. grep         "procura palavras no arquivo"
+10.pwd          "mostra o caminho até o diretório atual"
+11.mkdir        "cria um novo diretório"
+12.cp           "copia um arquivo"
+13.mv           "move ou renomeia um arquivo"
+14.rm           "remove um arquivo" 
+15.rmdir        "remove diretorio vazio, usar -r para diretorio com arquivo"
+16.less         "exibe um arquivo, uma pagina por vez"
+17.cat          "exibe um arquivo"
+18.touch        "cria um arquivo vazio"
