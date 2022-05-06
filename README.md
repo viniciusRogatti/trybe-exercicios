@@ -22,7 +22,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [ ] 3-1: _HTML & CSS - Estruturas de página_
+- [✅] 3-1: [_HTML & CSS - Estruturas de página_](https://github.com/viniciusRogatti/trybe-exercicios/tree/master/Fundamentos/Bloco%2003/Indrodu%C3%A7%C3%A3o-HTML%20%26%20CSS)
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
