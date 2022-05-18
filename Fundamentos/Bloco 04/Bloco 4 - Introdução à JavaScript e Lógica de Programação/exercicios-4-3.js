@@ -3,7 +3,6 @@
 //Com base nessas informações, crie um algoritmo que retorne o fatorial de 10.
 
 /* let numberFatorial = 10;
-
 for(var i= numberFatorial-1; i >= 1; i -= 1){
   numberFatorial = numberFatorial * [i];
 }console.log("O número fatorial de 10 é", numberFatorial) */
@@ -20,12 +19,10 @@ for(var i= word.length -1;i >=0; i-=1){
 /* let array = ['java','javascript','css','python','html'];
 let maior = ""
 let menor = ""
-
 for(var i=0; i < array.length; i+=1){
   if(array[i].length > maior.length)
   maior = array[i]
 }console.log(maior)
-
 for(var i=0; i < array.length; i+=1){  
   if(menor <= 0)
   menor = array[i]
@@ -37,7 +34,6 @@ for(var i=0; i < array.length; i+=1){
 
 /* let maiorPrimo = 0;
 let numerosPrimos = [];
-
 for (let i = 2; i <= 50; i+=1){
   let isPrime = true;
   for (let divisor = 2; divisor < i; divisor+=1)
@@ -63,7 +59,6 @@ console.log(numerosPrimos) */
 
 /* n = 5;
 quadrado = "";
-
 for(var i=0; i < n; i+=1){  
     quadrado += "* "; }
   for(var i2=0; i2 < n; i2+=1){ 
@@ -101,8 +96,3 @@ for(var i=0;i <= n; i+=1){
   espaco = ""
   position -= 1;
 } */
-
-//
-
-
-
