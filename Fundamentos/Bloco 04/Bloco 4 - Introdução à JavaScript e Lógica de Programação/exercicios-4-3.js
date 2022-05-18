@@ -1,3 +1,4 @@
+
 //[1].O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. Por exemplo:O fatorial é representado pelo sinal ! 4! = 4 x 3 x 2 x 1 = 24
 //Com base nessas informações, crie um algoritmo que retorne o fatorial de 10.
 
@@ -68,6 +69,7 @@ for(var i=0; i < n; i+=1){
 
 /* n = 5;
 triangulo = "";
+
 for(var i=0; i < n; i+=1){
   if(i === 0)
   triangulo +="*"
@@ -81,6 +83,7 @@ for(var i=0; i < n; i+=1){
 let asteriscos = "*";
 let espaco = "";
 let position = n;
+
 for(var i=0;i <= n; i+=1){
   for(var i2=0; i2 <= n; i2 +=1){
     if(i2 < position){
@@ -93,5 +96,3 @@ for(var i=0;i <= n; i+=1){
   espaco = ""
   position -= 1;
 } */
-
-//
