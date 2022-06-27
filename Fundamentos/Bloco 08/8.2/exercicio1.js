@@ -1,4 +1,3 @@
-// [1].Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
 
 const books = [
     {
@@ -37,7 +36,7 @@ const books = [
       genre: 'Ficção Científica',
       author: {
         name: 'Frank Herbert',
-        birthYear: 1920,
+        birthYear: 1921,
       },
       releaseYear: 1965,
     },
@@ -63,12 +62,12 @@ const books = [
     },
   ];
 
-  const firstAuthorSince47 = array => array.find(element => element.author.birthYear ===  1947).author.name;
 
+// [1].Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
+const firstAuthorSince47 = array => array.find(element => element.author.birthYear ===  1947).author.name;
 // console.log(firstAuthorSince47(books));
 
 // [2].Retorne o nome do livro de menor nome.
-
 const smallerName = () => {
   let smallName;  
   books.forEach((book) => {
@@ -77,5 +76,28 @@ const smallerName = () => {
     }
   });
   return smallName; 
-}
-console.log(smallerName());
+} // console.log(smallerName());
+
+//[3].Encontre o primeiro livro cujo nome possui 26 caracteres.
+const firstBook26Length = books.find((book) => book.name.length === 26);
+// console.log(firstBook26Length);
+
+//[4].Ordene os livros por data de lançamento em ordem decrescente.
+// const booksSort = books.sort((a,b) => a.releaseYear - b.releaseYear);
+// console.log(booksSort);
+
+//[5].Faça uma função que retorne true, se todas as pessoas autoras nasceram no século XX, ou false, caso contrário.
+
+const seculoXXcheck = books.every((item) => item.author.birthYear > 1901 && item.author.birthYear < 2000);
+// console.log(seculoXXcheck);
+
+//[6].Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
+
+const decada80 = books.some((item) => item.author.birthYear > 1980 && item.author.birthYear < 1990);
+// console.log(decada80);
+
+//[7].Faça uma função que retorne true, caso nenhum author tenha nascido no mesmo ano, e false, caso contrário.
+const anos = [];
+books.forEach((book) => anos.push(book.author.birthYear));
+const nasceramNoMesmoAno = () => anos.every((ano,index) => !anos.some((ano2,index2) => ano === ano2 && index2 !== index));
+console.log(nasceramNoMesmoAno());
