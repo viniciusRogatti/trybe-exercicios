@@ -85,6 +85,5 @@ console.log(idadeAutores);
 
 // [4].Encontre o livro com o maior nome.
 
-
-
-
+const maiorNomeLivro = books.reduce((acc, curr) => acc.length > curr.name.length ? acc : acc = curr.name ,'');
+console.log(maiorNomeLivro);
