@@ -74,6 +74,17 @@ const books = [
 
 // [2].Crie uma string com os nomes de todas as pessoas autoras.
 
-const namesAutores = books.reduce((acc, curr) => `${acc} ${curr.author.name},`,'');
+const namesAutores = books.reduce((acc, curr) => `${acc} ${curr.author.name},`,'').trim();
 console.log(namesAutores);
 console.log(typeof namesAutores);
+
+//[3].Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+
+const idadeAutores = books.reduce((acc, curr) => acc += curr.releaseYear - curr.author.birthYear,0) / books.length;
+console.log(idadeAutores);
+
+// [4].Encontre o livro com o maior nome.
+
+
+
+
