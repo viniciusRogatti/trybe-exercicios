@@ -105,10 +105,11 @@ const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 
 function studentAverage() {
  const mediaNotas = [];
- grades.reduce((acc, curr) => mediaNotas.push(acc = curr.reduce((acc2, curr2,idx,src) => acc2 += curr2/src.length,0).toFixed(2)),0);
- return students.reduce((acc, curr, idx) => {
-  acc[curr] = mediaNotas[idx];
-  return acc;
+ const finalArray = [];
+grades.reduce((acc, curr) => mediaNotas.push(acc = curr.reduce((acc2, curr2,idx,src) => acc2 += curr2/src.length,0).toFixed(2)),0);
+ return students.reduce((acc3, curr3, idx) => {
+  finalArray.push({name: curr3, average: parseFloat(mediaNotas[idx])},);
+  return finalArray;
 },{})
 }
 console.log(studentAverage());
