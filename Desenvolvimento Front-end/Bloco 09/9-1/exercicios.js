@@ -146,9 +146,4 @@ const arrowFunction = (e) => e.name === 'Bulbasaur';
 
 console.log(getPokemonDetails(arrowFunction, teste));
 
-module.exports = {
-  getPokemonDetails,
-};
-
-
 module.exports = uppercase;
