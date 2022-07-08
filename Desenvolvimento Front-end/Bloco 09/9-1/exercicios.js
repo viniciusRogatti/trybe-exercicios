@@ -62,7 +62,7 @@ sendMarsTemperature(getMarsTemperature(), temperatureInFahrenheit); */
 
 // [4] - Por fim, o robô Curiosity tem uma taxa de sucesso de envio de mensagem de 60% devido ao fato de o robô já estar muito ocupado com outras operações. Logo, adicione na função sendMarsTemperature uma outra callback que contenha as ações a serem tomadas em caso de falha.
 
-const messageDelay = () => Math.floor(Math.random() * 5000);
+/* const messageDelay = () => Math.floor(Math.random() * 5000);
 
 const getMarsTemperature = () => {
   const maxTemperature = 58;
@@ -93,5 +93,57 @@ const sendMarsTemperature = (callback, error) => {
 
 // imprime "It is currently 47ºF at Mars", por exemplo, ou "Error getting temperature: Robot is busy"
 sendMarsTemperature(temperatureInFahrenheit, handleError);
-sendMarsTemperature(greet, handleError);
 // imprime "Hi there! Curiosity here. Right now is 53ºC at Mars", por exemplo, ou "Error getting temperature: Robot is busy"
+sendMarsTemperature(greet, handleError); */
+
+// [5] - Escreva um teste que verifique a chamada da callback de uma função uppercase, que transforma as letras de uma palavra em letras maiúsculas. Lembre-se de ter cuidado com os falso-positivos em testes assíncronos.
+
+const uppercase = (str, callback) => {
+  setTimeout(() => {
+    callback(str.toUpperCase());
+  }, 500);
+};
+
+// [6] - Para o próximo exercício, você vai sentir na pele o primeiro dia de um treinador Pokémon! No laboratório do Professor Carvalho, você é informado de que existem três pokémons disponíveis: Bulbasaur, Charmander e Squirtle. Complete a chamada da função getPokemonDetails de modo que ela imprima no console os detalhes do pokémon que você escolheu. PS: é possível que o sistema do Professor Carvalho apresente erros caso o pokémon não exista no banco de dados, então não se esqueça de tratá-los também, combinado?
+
+const pokemons = [
+  {
+    name: 'Bulbasaur',
+    type: 'Grass',
+    ability: 'Razor Leaf',
+  },
+  {
+    name: 'Charmander',
+    type: 'Fire',
+    ability: 'Ember',
+  },
+  {
+    name: 'Squirtle',
+    type: 'Water',
+    ability: 'Water Gun',
+  },
+];
+
+function getPokemonDetails(filter, callback) {
+  setTimeout(() => {
+    if (pokemons.find(filter) === undefined) {
+      return callback(new Error('Não temos esse pokémon para você :('), null);
+    }
+    const pokemon = pokemons.find(filter);
+    const { name, type, ability } = pokemon;
+
+    const messageFromProfOak = `Olá, seu pokémon é o ${name}, o tipo dele é ${type} e a habilidade principal dele é ${ability}`;
+
+     callback(null, messageFromProfOak);
+  }, 2000);
+  return 'teste';
+}
+const teste = (error, message) => {
+  if (error) console.log(error);
+  console.log(message);
+}
+const arrowFunction = (e) => e.name === 'Bulbasaur';
+
+console.log(getPokemonDetails(arrowFunction, teste));
+
+module.exports = uppercase;

@@ -1,0 +1,61 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body 
+{
+  text-align: center;
+  background-color: rgb(192, 143, 38);
+}
+
+.container 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(192, 143, 38);
+}
+
+.card 
+{
+  display: flex;
+  align-items: center;
+  width: 20%;
+  margin: 1rem;
+  font-size: 12px;
+  box-shadow: 10px 5px 5px rgb(39, 39, 39);
+}
+
+.card-img-top
+{
+  max-width: 80%;
+  max-height: 70%;
+}
+
+.list-group-item
+{
+  padding:0px;
+  margin: 2px 0px;
+}
+
+.list-group-flush .list-group-item
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  max-width: 100%;
+  border: none;
+}
+
+.card-title
+{
+  margin-top: 0.5rem;
+}
+
+.card-link
+{
+  margin-bottom: 0.5rem;
+}
